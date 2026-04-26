@@ -24,7 +24,7 @@ packages = ["src/stackchat"]
 
 [dependency-groups]
 dev = [
-    "pytest>=8.0",
+    "pytest>=9.0.3",
     "pytest-asyncio>=0.23",
     "respx>=0.21",
     "anyio>=4.0",
