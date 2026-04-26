@@ -63,6 +63,8 @@ All settings have production-safe defaults. Override with environment variables 
 | `STACKCHAT_CACHE_MAX_SIZE` | `512` | Maximum cached responses in memory |
 | `STACKCHAT_CACHE_TTL` | `300` | Cache time-to-live in seconds |
 | `STACKCHAT_RETRY_ATTEMPTS` | `3` | Max retries on 429 / 5xx errors |
+| `STACKCHAT_TRANSPORT` | `stdio` | `stdio` for local use; `streamable-http` for Cloud Run / remote |
+| `PORT` | `8080` | Port to bind (Cloud Run injects this automatically) |
 
 Example `.env`:
 
@@ -71,6 +73,105 @@ STACKCHAT_CATALOG_URL=https://catalog.princeton.edu
 STACKCHAT_HTTP_TIMEOUT=20
 STACKCHAT_CACHE_TTL=600
 ```
+
+## Cloud Run deployment
+
+### 1. Build and push the container image
+
+```bash
+export PROJECT_ID=your-gcp-project-id
+export REGION=us-east1
+export IMAGE=gcr.io/$PROJECT_ID/stackchat
+
+docker build -t $IMAGE .
+docker push $IMAGE
+```
+
+Or use Cloud Build to build remotely:
+
+```bash
+gcloud builds submit --tag $IMAGE
+```
+
+### 2. Deploy to Cloud Run (public)
+
+```bash
+gcloud run deploy stackchat \
+  --image $IMAGE \
+  --region $REGION \
+  --port 8080 \
+  --allow-unauthenticated \
+  --set-env-vars STACKCHAT_TRANSPORT=streamable-http
+```
+
+After deployment, Cloud Run prints the service URL:
+
+```
+Service URL: https://stackchat-<hash>-<region-abbr>.a.run.app
+```
+
+### 3. Map a custom domain (optional but recommended)
+
+Cloud Run supports custom domains so users get a stable, readable URL.
+
+```bash
+gcloud run domain-mappings create \
+  --service stackchat \
+  --domain mcp.example.com \
+  --region $REGION
+```
+
+Then add the DNS records shown in the output (a CNAME or A record pointing to `ghs.googlehosted.com`). Once DNS propagates, the service is live at `https://mcp.example.com`.
+
+### 4. Configure your MCP client
+
+Use the HTTPS URL directly — no local proxy or extra tooling required:
+
+```json
+{
+  "mcpServers": {
+    "stackchat": {
+      "url": "https://mcp.example.com/mcp"
+    }
+  }
+}
+```
+
+If you are using the auto-generated Cloud Run URL instead of a custom domain:
+
+```json
+{
+  "mcpServers": {
+    "stackchat": {
+      "url": "https://stackchat-<hash>-<region-abbr>.a.run.app/mcp"
+    }
+  }
+}
+```
+
+Retrieve the URL at any time with:
+
+```bash
+gcloud run services describe stackchat --region $REGION \
+  --format='value(status.url)'
+```
+
+> **Private deployment:** If you want to restrict access to authenticated users only, replace `--allow-unauthenticated` with `--no-allow-unauthenticated` and use `gcloud run services proxy` or OIDC tokens. See the [Cloud Run authentication docs](https://docs.cloud.google.com/run/docs/host-mcp-servers#authenticate-mcp-clients-for-ai-agents).
+
+### Environment variables on Cloud Run
+
+Pass additional config at deploy time with `--set-env-vars`:
+
+```bash
+gcloud run deploy stackchat \
+  --image $IMAGE \
+  --region $REGION \
+  --port 8080 \
+  --no-allow-unauthenticated \
+  --set-env-vars STACKCHAT_TRANSPORT=streamable-http,STACKCHAT_CACHE_TTL=600
+```
+
+For secrets (e.g. a future API key), use `--set-secrets` to pull from Secret Manager rather than plain env vars.
 
 ## Available tools
 
