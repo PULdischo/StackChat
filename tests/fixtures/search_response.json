@@ -1,0 +1,5279 @@
+{
+  "links": {
+    "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics",
+    "next": "https://catalog.princeton.edu/catalog.json?page=2&per_page=2&q=plasma+physics",
+    "last": "https://catalog.princeton.edu/catalog.json?page=8603&per_page=2&q=plasma+physics"
+  },
+  "meta": {
+    "pages": {
+      "current_page": 1,
+      "next_page": 2,
+      "prev_page": null,
+      "total_pages": 8603,
+      "limit_value": 2,
+      "offset_value": 0,
+      "total_count": 17205,
+      "first_page?": true,
+      "last_page?": false
+    }
+  },
+  "data": [
+    {
+      "id": "9965040723506421",
+      "type": "Book",
+      "attributes": {
+        "title": "Plasma Physics.",
+        "author_display": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#author_display",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "Rothman, Milton A."
+            ],
+            "label": "Author/Artist"
+          }
+        },
+        "pub_created_display": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#pub_created_display",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "Princeton, N.J. : Princeton University Plasma Physics Laboratory, 1962."
+            ],
+            "label": "Published/Created"
+          }
+        },
+        "format": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#format",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "Book"
+            ],
+            "label": "Format"
+          }
+        },
+        "holdings_1display": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#holdings_1display",
+          "type": "document_value",
+          "attributes": {
+            "value": {
+              "22566418000006421": {
+                "location_code": "plasma$rdr",
+                "location": "Tech. Reports",
+                "library": "Harold P. Furth Plasma Physics Library",
+                "call_number": "MATT 233",
+                "call_number_browse": "MATT 233",
+                "items": [
+                  {
+                    "holding_id": "22566418000006421",
+                    "id": "23939459630006421",
+                    "status_at_load": "1",
+                    "barcode": "32101104492465"
+                  }
+                ]
+              }
+            },
+            "label": "Holdings 1display"
+          }
+        },
+        "score": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#score",
+          "type": "document_value",
+          "attributes": {
+            "value": 391741.5,
+            "label": "Score"
+          }
+        },
+        "marc_relator_display": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#marc_relator_display",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "Author"
+            ],
+            "label": "Marc Relator Display"
+          }
+        },
+        "title_display": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#title_display",
+          "type": "document_value",
+          "attributes": {
+            "value": "Plasma Physics.",
+            "label": "Title Display"
+          }
+        },
+        "oclc_s": {
+          "id": "https://catalog.princeton.edu/catalog/9965040723506421#oclc_s",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "713210670"
+            ],
+            "label": "Oclc S"
+          }
+        }
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/9965040723506421"
+      }
+    },
+    {
+      "id": "994953873506421",
+      "type": "Journal",
+      "attributes": {
+        "title": "Plasma physics.",
+        "pub_created_display": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#pub_created_display",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "Oxford ; New York : Pergamon Press, c1967-c1983."
+            ],
+            "label": "Published/Created"
+          }
+        },
+        "format": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#format",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "Journal"
+            ],
+            "label": "Format"
+          }
+        },
+        "holdings_1display": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#holdings_1display",
+          "type": "document_value",
+          "attributes": {
+            "value": {
+              "22645214880006421": {
+                "location_code": "plasma$ps",
+                "location": "Periodicals",
+                "library": "Harold P. Furth Plasma Physics Library",
+                "call_number": "QC770 .J6",
+                "call_number_browse": "QC770 .J6",
+                "items": [
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 17, pt. 1",
+                    "id": "23645214710006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740764",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 13, pt. 1",
+                    "id": "23645214800006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740673",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 20, pt. 1",
+                    "id": "23645214640006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740830",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 19, pt. 2",
+                    "id": "23645214630006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740848",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 18, pt. 2",
+                    "id": "23645214610006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740863",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 19, pt. 1",
+                    "id": "23645214620006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740855",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 23, pt. 2",
+                    "id": "23645214730006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740749",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 17, pt. 2",
+                    "id": "23645214720006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740756",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 16, pt. 2",
+                    "id": "23645214700006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740772",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 23, no. 1-6",
+                    "id": "23645214830006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716418",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 24, pt. 2",
+                    "id": "23645214750006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740723",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 24, pt. 1",
+                    "id": "23645214740006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740731",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 10, pt. 2",
+                    "id": "23645214850006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716574",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 25, no. 7-12",
+                    "id": "23645214810006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716590",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 14, no. 1-6",
+                    "id": "23645214840006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716632",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 10, no. 1-6",
+                    "id": "23645214860006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716566",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 25, no. 1-6",
+                    "id": "23645214820006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716582",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 12, pt. 1",
+                    "id": "23645214780006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740699",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 16, pt. 1",
+                    "id": "23645214690006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740780",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 12, pt. 2",
+                    "id": "23645214790006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740681",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 15, pt. 2",
+                    "id": "23645214680006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740798",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 11, pt. 2",
+                    "id": "23645214770006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740707",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 11, pt. 1",
+                    "id": "23645214760006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740715",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 14, pt. 2",
+                    "id": "23645214660006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740814",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 15, pt. 1",
+                    "id": "23645214670006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740806",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 18, pt. 1",
+                    "id": "23645214600006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740871",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 20, pt. 2",
+                    "id": "23645214650006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740822",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 21, pt. 1",
+                    "id": "23645214560006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740913",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 13, pt. 2",
+                    "id": "23645214550006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740665",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 21, pt. 2",
+                    "id": "23645214570006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740905",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 22, pt. 1",
+                    "id": "23645214580006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740897",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 22, pt. 2",
+                    "id": "23645214590006421",
+                    "status_at_load": "1",
+                    "barcode": "32101047740889",
+                    "copy_number": "1"
+                  },
+                  {
+                    "holding_id": "22645214880006421",
+                    "description": "vol. 9",
+                    "id": "23645214870006421",
+                    "status_at_load": "1",
+                    "barcode": "32101021716426",
+                    "copy_number": "1"
+                  }
+                ],
+                "location_has": [
+                  "Vol. 9, no. 1 (Jan./Feb. 1967)-v. 25, no. 12 (Dec. 1983)"
+                ],
+                "supplements": [
+                  null
+                ],
+                "indexes": [
+                  null
+                ]
+              }
+            },
+            "label": "Holdings 1display"
+          }
+        },
+        "score": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#score",
+          "type": "document_value",
+          "attributes": {
+            "value": 391683.2,
+            "label": "Score"
+          }
+        },
+        "title_display": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#title_display",
+          "type": "document_value",
+          "attributes": {
+            "value": "Plasma physics.",
+            "label": "Title Display"
+          }
+        },
+        "oclc_s": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#oclc_s",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "2449732"
+            ],
+            "label": "Oclc S"
+          }
+        },
+        "lccn_s": {
+          "id": "https://catalog.princeton.edu/catalog/994953873506421#lccn_s",
+          "type": "document_value",
+          "attributes": {
+            "value": [
+              "84643711"
+            ],
+            "label": "Lccn S"
+          }
+        }
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/994953873506421"
+      }
+    }
+  ],
+  "included": [
+    {
+      "type": "facet",
+      "id": "lc_subject_facet",
+      "attributes": {
+        "label": "LC Subjects",
+        "items": [
+          {
+            "attributes": {
+              "label": "Plasma (Ionized gases)",
+              "value": "Plasma (Ionized gases)",
+              "hits": 2211
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Plasma+%28Ionized+gases%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Plasma (Ionized gases)\u2014Congresses",
+              "value": "Plasma (Ionized gases)\u2014Congresses",
+              "hits": 577
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Plasma+%28Ionized+gases%29%E2%80%94Congresses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tokamaks",
+              "value": "Tokamaks",
+              "hits": 473
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Tokamaks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Physics",
+              "value": "Physics",
+              "hits": 458
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Astrophysics",
+              "value": "Astrophysics",
+              "hits": 433
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Astrophysics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Controlled fusion",
+              "value": "Controlled fusion",
+              "hits": 416
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Controlled+fusion&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mathematical physics",
+              "value": "Mathematical physics",
+              "hits": 375
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Mathematical+physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tokamak Fusion Test Reactor (Project).",
+              "value": "Tokamak Fusion Test Reactor (Project).",
+              "hits": 348
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Tokamak+Fusion+Test+Reactor+%28Project%29.&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Space plasmas",
+              "value": "Space plasmas",
+              "hits": 347
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Space+plasmas&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Plasma confinement",
+              "value": "Plasma confinement",
+              "hits": 336
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Plasma+confinement&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Nuclear physics",
+              "value": "Nuclear physics",
+              "hits": 329
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_subject_facet%5D%5B%5D=Nuclear+physics&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/lc_subject_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "lcgft_genre_facet",
+      "attributes": {
+        "label": "LC Genres",
+        "items": [
+          {
+            "attributes": {
+              "label": "Periodicals",
+              "value": "Periodicals",
+              "hits": 187
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Periodicals&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Academic theses",
+              "value": "Academic theses",
+              "hits": 63
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Academic+theses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Dictionaries",
+              "value": "Dictionaries",
+              "hits": 42
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Dictionaries&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Conference papers and proceedings",
+              "value": "Conference papers and proceedings",
+              "hits": 31
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Conference+papers+and+proceedings&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Technical reports",
+              "value": "Technical reports",
+              "hits": 23
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Technical+reports&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Textbooks",
+              "value": "Textbooks",
+              "hits": 21
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Textbooks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Video recordings",
+              "value": "Video recordings",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Video+recordings&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Directories",
+              "value": "Directories",
+              "hits": 15
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Directories&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Facsimiles",
+              "value": "Facsimiles",
+              "hits": 11
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Facsimiles&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Abstracts",
+              "value": "Abstracts",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Abstracts&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Encyclopedias",
+              "value": "Encyclopedias",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blcgft_genre_facet%5D%5B%5D=Encyclopedias&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/lcgft_genre_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "aat_genre_facet",
+      "attributes": {
+        "label": "Genres: Art and Architecture Thesaurus",
+        "items": [
+          {
+            "attributes": {
+              "label": "proceedings (reports)",
+              "value": "proceedings (reports)",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=proceedings+%28reports%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "periodicals",
+              "value": "periodicals",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=periodicals&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Born digital",
+              "value": "Born digital",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Born+digital&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Correspondence",
+              "value": "Correspondence",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Correspondence&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Reports",
+              "value": "Reports",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Reports&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Instructional materials",
+              "value": "Instructional materials",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Instructional+materials&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Lectures",
+              "value": "Lectures",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Lectures&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Memoranda",
+              "value": "Memoranda",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Memoranda&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Newsletters",
+              "value": "Newsletters",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Newsletters&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Photographs, Original",
+              "value": "Photographs, Original",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Photographs%2C+Original&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Speeches",
+              "value": "Speeches",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baat_genre_facet%5D%5B%5D=Speeches&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/aat_genre_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "rbgenr_genre_facet",
+      "attributes": {
+        "label": "Genres: Rare Books",
+        "items": [
+          {
+            "attributes": {
+              "label": "Academic dissertations",
+              "value": "Academic dissertations",
+              "hits": 222
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Brbgenr_genre_facet%5D%5B%5D=Academic+dissertations&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/rbgenr_genre_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "access_facet",
+      "attributes": {
+        "label": "Access",
+        "items": [
+          {
+            "attributes": {
+              "label": "In the Library",
+              "value": "In the Library",
+              "hits": 12747
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baccess_facet%5D%5B%5D=In+the+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Online",
+              "value": "Online",
+              "hits": 9857
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Baccess_facet%5D%5B%5D=Online&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/access_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "location",
+      "attributes": {
+        "label": "Library",
+        "items": [
+          {
+            "attributes": {
+              "label": "Architecture Library",
+              "value": "Architecture Library",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Architecture+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "East Asian Library",
+              "value": "East Asian Library",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=East+Asian+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Engineering Library",
+              "value": "Engineering Library",
+              "hits": 398
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Engineering+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Firestone Library",
+              "value": "Firestone Library",
+              "hits": 95
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Firestone+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Forrestal Annex",
+              "value": "Forrestal Annex",
+              "hits": 47
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Forrestal+Annex&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Harold P. Furth Plasma Physics Library",
+              "value": "Harold P. Furth Plasma Physics Library",
+              "hits": 9605
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Harold+P.+Furth+Plasma+Physics+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Lewis Library",
+              "value": "Lewis Library",
+              "hits": 1812
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Lewis+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Marquand Library",
+              "value": "Marquand Library",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Marquand+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mendel Music Library",
+              "value": "Mendel Music Library",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Mendel+Music+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mudd Manuscript Library",
+              "value": "Mudd Manuscript Library",
+              "hits": 373
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Mudd+Manuscript+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "ReCAP",
+              "value": "ReCAP",
+              "hits": 3406
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=ReCAP&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Special Collections",
+              "value": "Special Collections",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Special+Collections&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Stokes Library",
+              "value": "Stokes Library",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Stokes+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Technical Services",
+              "value": "Technical Services",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blocation%5D%5B%5D=Technical+Services&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/location.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "format",
+      "attributes": {
+        "label": "Format",
+        "items": [
+          {
+            "attributes": {
+              "label": "Archival item",
+              "value": "Archival item",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Archival+item&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Book",
+              "value": "Book",
+              "hits": 16710
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Book&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Data file",
+              "value": "Data file",
+              "hits": 14
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Data+file&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Databases",
+              "value": "Databases",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Databases&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Journal",
+              "value": "Journal",
+              "hits": 421
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Journal&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Manuscript",
+              "value": "Manuscript",
+              "hits": 97
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Manuscript&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Map",
+              "value": "Map",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Map&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Microform",
+              "value": "Microform",
+              "hits": 41
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Microform&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Senior thesis",
+              "value": "Senior thesis",
+              "hits": 47
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Senior+thesis&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Video/Projected medium",
+              "value": "Video/Projected medium",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bformat%5D%5B%5D=Video%2FProjected+medium&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/format.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "pub_date_start_sort",
+      "attributes": {
+        "label": "Publication year",
+        "items": [
+          {
+            "attributes": {
+              "label": "1995",
+              "value": "1995",
+              "hits": 413
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=1995"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2004",
+              "value": "2004",
+              "hits": 382
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=2004"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2003",
+              "value": "2003",
+              "hits": 374
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=2003"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1986",
+              "value": "1986",
+              "hits": 370
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=1986"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1994",
+              "value": "1994",
+              "hits": 354
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=1994"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2002",
+              "value": "2002",
+              "hits": 349
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=2002"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2000",
+              "value": "2000",
+              "hits": 334
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=2000"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2005",
+              "value": "2005",
+              "hits": 329
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=2005"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1981",
+              "value": "1981",
+              "hits": 328
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=1981"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2001",
+              "value": "2001",
+              "hits": 327
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&range%5Bpub_date_start_sort%5D%5B%5D=2001"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/pub_date_start_sort.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "language_facet",
+      "attributes": {
+        "label": "Language",
+        "items": [
+          {
+            "attributes": {
+              "label": "English",
+              "value": "English",
+              "hits": 16981
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=English&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Russian",
+              "value": "Russian",
+              "hits": 308
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Russian&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "French",
+              "value": "French",
+              "hits": 158
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=French&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "German",
+              "value": "German",
+              "hits": 121
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=German&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Japanese",
+              "value": "Japanese",
+              "hits": 20
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Japanese&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Spanish",
+              "value": "Spanish",
+              "hits": 19
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Spanish&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Italian",
+              "value": "Italian",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Italian&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Chinese",
+              "value": "Chinese",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Chinese&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Multiple languages",
+              "value": "Multiple languages",
+              "hits": 7
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Multiple+languages&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Czech",
+              "value": "Czech",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Czech&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Swedish",
+              "value": "Swedish",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blanguage_facet%5D%5B%5D=Swedish&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/language_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "original_language_of_translation_facet",
+      "attributes": {
+        "label": "Source language of translation",
+        "items": [
+          {
+            "attributes": {
+              "label": "Russian",
+              "value": "Russian",
+              "hits": 133
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Russian&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "German",
+              "value": "German",
+              "hits": 23
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=German&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "French",
+              "value": "French",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=French&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Japanese",
+              "value": "Japanese",
+              "hits": 7
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Japanese&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "English",
+              "value": "English",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=English&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Chinese",
+              "value": "Chinese",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Chinese&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Czech",
+              "value": "Czech",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Czech&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Dutch",
+              "value": "Dutch",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Dutch&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Italian",
+              "value": "Italian",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Italian&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Latin",
+              "value": "Latin",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Boriginal_language_of_translation_facet%5D%5B%5D=Latin&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/original_language_of_translation_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_topic_facet",
+      "attributes": {
+        "label": "Subject: Topic",
+        "items": [
+          {
+            "attributes": {
+              "label": "Plasma (Ionized gases)",
+              "value": "Plasma (Ionized gases)",
+              "hits": 2211
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Plasma+%28Ionized+gases%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tokamaks",
+              "value": "Tokamaks",
+              "hits": 473
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Tokamaks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Physics",
+              "value": "Physics",
+              "hits": 459
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Astrophysics",
+              "value": "Astrophysics",
+              "hits": 433
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Astrophysics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Controlled fusion",
+              "value": "Controlled fusion",
+              "hits": 416
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Controlled+fusion&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mathematical physics",
+              "value": "Mathematical physics",
+              "hits": 375
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Mathematical+physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tokamak Fusion Test Reactor (Project).",
+              "value": "Tokamak Fusion Test Reactor (Project).",
+              "hits": 348
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Tokamak+Fusion+Test+Reactor+%28Project%29.&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Space plasmas",
+              "value": "Space plasmas",
+              "hits": 347
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Space+plasmas&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Congresses",
+              "value": "Congresses",
+              "hits": 345
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Congresses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Plasma confinement",
+              "value": "Plasma confinement",
+              "hits": 336
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Plasma+confinement&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Nuclear physics",
+              "value": "Nuclear physics",
+              "hits": 329
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_topic_facet%5D%5B%5D=Nuclear+physics&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/subject_topic_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "genre_facet",
+      "attributes": {
+        "label": "Subject: Genre",
+        "items": [
+          {
+            "attributes": {
+              "label": "Congresses",
+              "value": "Congresses",
+              "hits": 2484
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Congresses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Periodicals",
+              "value": "Periodicals",
+              "hits": 297
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Periodicals&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Academic dissertations",
+              "value": "Academic dissertations",
+              "hits": 222
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Academic+dissertations&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Observations",
+              "value": "Observations",
+              "hits": 159
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Observations&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Handbooks, manuals, etc",
+              "value": "Handbooks, manuals, etc",
+              "hits": 113
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Handbooks%2C+manuals%2C+etc&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Academic theses",
+              "value": "Academic theses",
+              "hits": 63
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Academic+theses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Dictionaries",
+              "value": "Dictionaries",
+              "hits": 50
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Dictionaries&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Bibliography",
+              "value": "Bibliography",
+              "hits": 48
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Bibliography&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tables",
+              "value": "Tables",
+              "hits": 48
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Tables&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Biography",
+              "value": "Biography",
+              "hits": 34
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Biography&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Conference papers and proceedings",
+              "value": "Conference papers and proceedings",
+              "hits": 31
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgenre_facet%5D%5B%5D=Conference+papers+and+proceedings&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/genre_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_era_facet",
+      "attributes": {
+        "label": "Subject: Era",
+        "items": [
+          {
+            "attributes": {
+              "label": "20th century",
+              "value": "20th century",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=20th+century&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "21st century",
+              "value": "21st century",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=21st+century&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1900 - 1999",
+              "value": "1900 - 1999",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=1900+-+1999&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1945-",
+              "value": "1945-",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=1945-&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1971-1981",
+              "value": "1971-1981",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=1971-1981&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "1971-1990",
+              "value": "1971-1990",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=1971-1990&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "19th century",
+              "value": "19th century",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=19th+century&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "2000-2099",
+              "value": "2000-2099",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_era_facet%5D%5B%5D=2000-2099&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/subject_era_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "geographic_facet",
+      "attributes": {
+        "label": "Subject: Geographic",
+        "items": [
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 183
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=United+States&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Sun",
+              "value": "Sun",
+              "hits": 94
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Sun&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "New Jersey",
+              "value": "New Jersey",
+              "hits": 26
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=New+Jersey&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Solar system",
+              "value": "Solar system",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Solar+system&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Princeton (New Jersey)",
+              "value": "Princeton (New Jersey)",
+              "hits": 11
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Princeton+%28New+Jersey%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Russia. Russian Empire. Soviet Union. Former Soviet Republics",
+              "value": "Russia. Russian Empire. Soviet Union. Former Soviet Republics",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Russia.+Russian+Empire.+Soviet+Union.+Former+Soviet+Republics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Outer space",
+              "value": "Outer space",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Outer+space&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Soviet Union",
+              "value": "Soviet Union",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Soviet+Union&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Europe",
+              "value": "Europe",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Europe&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Japan",
+              "value": "Japan",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Japan&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Jupiter",
+              "value": "Jupiter",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bgeographic_facet%5D%5B%5D=Jupiter&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/geographic_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "publication_place_hierarchical_facet",
+      "attributes": {
+        "label": "Place of publication",
+        "items": [
+          {
+            "attributes": {
+              "label": "Andorra",
+              "value": "Andorra",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Andorra&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Australia",
+              "value": "Australia",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Australia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Austria",
+              "value": "Austria",
+              "hits": 133
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Austria&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Belarus",
+              "value": "Belarus",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Belarus&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Belgium",
+              "value": "Belgium",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Belgium&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Brazil",
+              "value": "Brazil",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Brazil&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Bulgaria",
+              "value": "Bulgaria",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Bulgaria&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Canada",
+              "value": "Canada",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Canada&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Canada:Ontario",
+              "value": "Canada:Ontario",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Canada%3AOntario&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "China",
+              "value": "China",
+              "hits": 12
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=China&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "China (Republic : 1949- )",
+              "value": "China (Republic : 1949- )",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=China+%28Republic+%3A+1949-+%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Croatia",
+              "value": "Croatia",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Croatia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Czech Republic",
+              "value": "Czech Republic",
+              "hits": 15
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Czech+Republic&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Czechoslovakia",
+              "value": "Czechoslovakia",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Czechoslovakia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Denmark",
+              "value": "Denmark",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Denmark&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Ethiopia",
+              "value": "Ethiopia",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Ethiopia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Finland",
+              "value": "Finland",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Finland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "France",
+              "value": "France",
+              "hits": 118
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=France&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Georgia (Republic)",
+              "value": "Georgia (Republic)",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Georgia+%28Republic%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Germany",
+              "value": "Germany",
+              "hits": 1175
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Germany&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Germany (East)",
+              "value": "Germany (East)",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Germany+%28East%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Greece",
+              "value": "Greece",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Greece&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Hungary",
+              "value": "Hungary",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Hungary&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "India",
+              "value": "India",
+              "hits": 32
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=India&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Israel",
+              "value": "Israel",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Israel&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Italy",
+              "value": "Italy",
+              "hits": 65
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Italy&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Japan",
+              "value": "Japan",
+              "hits": 101
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Japan&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Korea (South)",
+              "value": "Korea (South)",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Korea+%28South%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Latvia",
+              "value": "Latvia",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Latvia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Lithuania",
+              "value": "Lithuania",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Lithuania&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Luxembourg",
+              "value": "Luxembourg",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Luxembourg&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Malaysia",
+              "value": "Malaysia",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Malaysia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Netherlands",
+              "value": "Netherlands",
+              "hits": 759
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Netherlands&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "New Caledonia",
+              "value": "New Caledonia",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=New+Caledonia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "No place, unknown, or undetermined",
+              "value": "No place, unknown, or undetermined",
+              "hits": 483
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=No+place%2C+unknown%2C+or+undetermined&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Norway",
+              "value": "Norway",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Norway&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Poland",
+              "value": "Poland",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Poland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Romania",
+              "value": "Romania",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Romania&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Russia (Federation)",
+              "value": "Russia (Federation)",
+              "hits": 57
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Russia+%28Federation%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Senegal",
+              "value": "Senegal",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Senegal&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Serbia",
+              "value": "Serbia",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Serbia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Serbia and Montenegro",
+              "value": "Serbia and Montenegro",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Serbia+and+Montenegro&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Singapore",
+              "value": "Singapore",
+              "hits": 382
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Singapore&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Slovenia",
+              "value": "Slovenia",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Slovenia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Soviet Union",
+              "value": "Soviet Union",
+              "hits": 37
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Soviet+Union&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Soviet Union:Russian S.F.S.R.",
+              "value": "Soviet Union:Russian S.F.S.R.",
+              "hits": 30
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Soviet+Union%3ARussian+S.F.S.R.&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Soviet Union:Ukraine",
+              "value": "Soviet Union:Ukraine",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Soviet+Union%3AUkraine&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Spain",
+              "value": "Spain",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Spain&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Swaziland",
+              "value": "Swaziland",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Swaziland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Sweden",
+              "value": "Sweden",
+              "hits": 71
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Sweden&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Switzerland",
+              "value": "Switzerland",
+              "hits": 430
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Switzerland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Ukraine",
+              "value": "Ukraine",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Ukraine&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United Arab Emirates",
+              "value": "United Arab Emirates",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+Arab+Emirates&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United Kingdom",
+              "value": "United Kingdom",
+              "hits": 1311
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+Kingdom&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United Kingdom:England",
+              "value": "United Kingdom:England",
+              "hits": 1279
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+Kingdom%3AEngland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United Kingdom:Scotland",
+              "value": "United Kingdom:Scotland",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+Kingdom%3AScotland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United Kingdom:United Kingdom (unspecified)",
+              "value": "United Kingdom:United Kingdom (unspecified)",
+              "hits": 13
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+Kingdom%3AUnited+Kingdom+%28unspecified%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United Kingdom:United Kingdom Misc. Islands",
+              "value": "United Kingdom:United Kingdom Misc. Islands",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+Kingdom%3AUnited+Kingdom+Misc.+Islands&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States",
+              "value": "United States",
+              "hits": 10910
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Alabama",
+              "value": "United States:Alabama",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AAlabama&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Arizona",
+              "value": "United States:Arizona",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AArizona&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:California",
+              "value": "United States:California",
+              "hits": 253
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ACalifornia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Colorado",
+              "value": "United States:Colorado",
+              "hits": 15
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AColorado&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Connecticut",
+              "value": "United States:Connecticut",
+              "hits": 14
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AConnecticut&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:District of Columbia",
+              "value": "United States:District of Columbia",
+              "hits": 335
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ADistrict+of+Columbia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Florida",
+              "value": "United States:Florida",
+              "hits": 330
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AFlorida&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Georgia",
+              "value": "United States:Georgia",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AGeorgia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Idaho",
+              "value": "United States:Idaho",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AIdaho&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Illinois",
+              "value": "United States:Illinois",
+              "hits": 129
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AIllinois&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Indiana",
+              "value": "United States:Indiana",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AIndiana&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Iowa",
+              "value": "United States:Iowa",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AIowa&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Kansas",
+              "value": "United States:Kansas",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AKansas&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Maryland",
+              "value": "United States:Maryland",
+              "hits": 34
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AMaryland&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Massachusetts",
+              "value": "United States:Massachusetts",
+              "hits": 334
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AMassachusetts&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Michigan",
+              "value": "United States:Michigan",
+              "hits": 38
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AMichigan&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Minnesota",
+              "value": "United States:Minnesota",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AMinnesota&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:New Jersey",
+              "value": "United States:New Jersey",
+              "hits": 6016
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ANew+Jersey&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:New Mexico",
+              "value": "United States:New Mexico",
+              "hits": 18
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ANew+Mexico&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:New York (State)",
+              "value": "United States:New York (State)",
+              "hits": 2599
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ANew+York+%28State%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:North Carolina",
+              "value": "United States:North Carolina",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ANorth+Carolina&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Ohio",
+              "value": "United States:Ohio",
+              "hits": 33
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AOhio&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Oklahoma",
+              "value": "United States:Oklahoma",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AOklahoma&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Oregon",
+              "value": "United States:Oregon",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AOregon&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Pennsylvania",
+              "value": "United States:Pennsylvania",
+              "hits": 147
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3APennsylvania&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Rhode Island",
+              "value": "United States:Rhode Island",
+              "hits": 13
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ARhode+Island&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Tennessee",
+              "value": "United States:Tennessee",
+              "hits": 37
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ATennessee&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Texas",
+              "value": "United States:Texas",
+              "hits": 23
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3ATexas&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:United States (unknown) (unspecified)",
+              "value": "United States:United States (unknown) (unspecified)",
+              "hits": 275
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AUnited+States+%28unknown%29+%28unspecified%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Vermont",
+              "value": "United States:Vermont",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AVermont&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Virginia",
+              "value": "United States:Virginia",
+              "hits": 58
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AVirginia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Washington (State)",
+              "value": "United States:Washington (State)",
+              "hits": 151
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AWashington+%28State%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "United States:Wisconsin",
+              "value": "United States:Wisconsin",
+              "hits": 25
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=United+States%3AWisconsin&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Various places",
+              "value": "Various places",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=Various+places&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "West Berlin",
+              "value": "West Berlin",
+              "hits": 66
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bpublication_place_hierarchical_facet%5D%5B%5D=West+Berlin&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/publication_place_hierarchical_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "lc_facet",
+      "attributes": {
+        "label": "Classification",
+        "items": [
+          {
+            "attributes": {
+              "label": "A - General Works",
+              "value": "A - General Works",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=A+-+General+Works&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "A - General Works:AG - General Reference Works",
+              "value": "A - General Works:AG - General Reference Works",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=A+-+General+Works%3AAG+-+General+Reference+Works&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "A - General Works:AS - Academies & Learned Societies",
+              "value": "A - General Works:AS - Academies & Learned Societies",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=A+-+General+Works%3AAS+-+Academies+%26+Learned+Societies&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "B - Philosophy, Psychology, Religion",
+              "value": "B - Philosophy, Psychology, Religion",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=B+-+Philosophy%2C+Psychology%2C+Religion&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "B - Philosophy, Psychology, Religion:B - Philosophy, Psychology, Religion",
+              "value": "B - Philosophy, Psychology, Religion:B - Philosophy, Psychology, Religion",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=B+-+Philosophy%2C+Psychology%2C+Religion%3AB+-+Philosophy%2C+Psychology%2C+Religion&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "B - Philosophy, Psychology, Religion:BD - Speculative Philosophy",
+              "value": "B - Philosophy, Psychology, Religion:BD - Speculative Philosophy",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=B+-+Philosophy%2C+Psychology%2C+Religion%3ABD+-+Speculative+Philosophy&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "B - Philosophy, Psychology, Religion:BF - Psychology",
+              "value": "B - Philosophy, Psychology, Religion:BF - Psychology",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=B+-+Philosophy%2C+Psychology%2C+Religion%3ABF+-+Psychology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "B - Philosophy, Psychology, Religion:BQ - Buddhism",
+              "value": "B - Philosophy, Psychology, Religion:BQ - Buddhism",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=B+-+Philosophy%2C+Psychology%2C+Religion%3ABQ+-+Buddhism&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "C - Historical Sciences (Archaeology, Genealogy)",
+              "value": "C - Historical Sciences (Archaeology, Genealogy)",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=C+-+Historical+Sciences+%28Archaeology%2C+Genealogy%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "C - Historical Sciences (Archaeology, Genealogy):CC - Archaeology",
+              "value": "C - Historical Sciences (Archaeology, Genealogy):CC - Archaeology",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=C+-+Historical+Sciences+%28Archaeology%2C+Genealogy%29%3ACC+-+Archaeology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "C - Historical Sciences (Archaeology, Genealogy):CT - Biography",
+              "value": "C - Historical Sciences (Archaeology, Genealogy):CT - Biography",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=C+-+Historical+Sciences+%28Archaeology%2C+Genealogy%29%3ACT+-+Biography&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "D - World History",
+              "value": "D - World History",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=D+-+World+History&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "D - World History:D - World History",
+              "value": "D - World History:D - World History",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=D+-+World+History%3AD+-+World+History&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "E - History of the Americas (General)",
+              "value": "E - History of the Americas (General)",
+              "hits": 7
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=E+-+History+of+the+Americas+%28General%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "E - History of the Americas (General):E - History of the Americas (General)",
+              "value": "E - History of the Americas (General):E - History of the Americas (General)",
+              "hits": 7
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=E+-+History+of+the+Americas+%28General%29%3AE+-+History+of+the+Americas+%28General%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "F - History of the Americas (Local)",
+              "value": "F - History of the Americas (Local)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=F+-+History+of+the+Americas+%28Local%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "F - History of the Americas (Local):F - History of the Americas (Local)",
+              "value": "F - History of the Americas (Local):F - History of the Americas (Local)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=F+-+History+of+the+Americas+%28Local%29%3AF+-+History+of+the+Americas+%28Local%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "G - Geography, Anthropology, Recreation",
+              "value": "G - Geography, Anthropology, Recreation",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=G+-+Geography%2C+Anthropology%2C+Recreation&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "G - Geography, Anthropology, Recreation:G - Geography, Anthropology, Recreation",
+              "value": "G - Geography, Anthropology, Recreation:G - Geography, Anthropology, Recreation",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=G+-+Geography%2C+Anthropology%2C+Recreation%3AG+-+Geography%2C+Anthropology%2C+Recreation&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "G - Geography, Anthropology, Recreation:GB - Physical Geography",
+              "value": "G - Geography, Anthropology, Recreation:GB - Physical Geography",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=G+-+Geography%2C+Anthropology%2C+Recreation%3AGB+-+Physical+Geography&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "G - Geography, Anthropology, Recreation:GC - Oceanography",
+              "value": "G - Geography, Anthropology, Recreation:GC - Oceanography",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=G+-+Geography%2C+Anthropology%2C+Recreation%3AGC+-+Oceanography&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "G - Geography, Anthropology, Recreation:GE - Environmental Sciences",
+              "value": "G - Geography, Anthropology, Recreation:GE - Environmental Sciences",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=G+-+Geography%2C+Anthropology%2C+Recreation%3AGE+-+Environmental+Sciences&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences",
+              "value": "H - Social Sciences",
+              "hits": 112
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HA - Statistics",
+              "value": "H - Social Sciences:HA - Statistics",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHA+-+Statistics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HC - Economic History & Conditions",
+              "value": "H - Social Sciences:HC - Economic History & Conditions",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHC+-+Economic+History+%26+Conditions&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HD - Industries, Land use, Labor",
+              "value": "H - Social Sciences:HD - Industries, Land use, Labor",
+              "hits": 72
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHD+-+Industries%2C+Land+use%2C+Labor&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HE - Transportation & Communications",
+              "value": "H - Social Sciences:HE - Transportation & Communications",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHE+-+Transportation+%26+Communications&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HF - Commerce",
+              "value": "H - Social Sciences:HF - Commerce",
+              "hits": 25
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHF+-+Commerce&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HG - Finance",
+              "value": "H - Social Sciences:HG - Finance",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHG+-+Finance&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HJ - Public Finance",
+              "value": "H - Social Sciences:HJ - Public Finance",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHJ+-+Public+Finance&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "H - Social Sciences:HQ - The Family, Marriage, Woman",
+              "value": "H - Social Sciences:HQ - The Family, Marriage, Woman",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=H+-+Social+Sciences%3AHQ+-+The+Family%2C+Marriage%2C+Woman&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "J - Political Science",
+              "value": "J - Political Science",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=J+-+Political+Science&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "J - Political Science:JK - Political Institutions (U.S.)",
+              "value": "J - Political Science:JK - Political Institutions (U.S.)",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=J+-+Political+Science%3AJK+-+Political+Institutions+%28U.S.%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "J - Political Science:JX - International Law",
+              "value": "J - Political Science:JX - International Law",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=J+-+Political+Science%3AJX+-+International+Law&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "K - Law",
+              "value": "K - Law",
+              "hits": 19
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=K+-+Law&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "K - Law:K - Law",
+              "value": "K - Law:K - Law",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=K+-+Law%3AK+-+Law&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "K - Law:KF - Law of the U.S.",
+              "value": "K - Law:KF - Law of the U.S.",
+              "hits": 14
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=K+-+Law%3AKF+-+Law+of+the+U.S.&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "K - Law:KZ - Law of Nations",
+              "value": "K - Law:KZ - Law of Nations",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=K+-+Law%3AKZ+-+Law+of+Nations&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "L - Education",
+              "value": "L - Education",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=L+-+Education&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "L - Education:L - Education",
+              "value": "L - Education:L - Education",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=L+-+Education%3AL+-+Education&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "L - Education:LB - Theory & Practice of Education",
+              "value": "L - Education:LB - Theory & Practice of Education",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=L+-+Education%3ALB+-+Theory+%26+Practice+of+Education&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "L - Education:LC - Special Aspects of Education",
+              "value": "L - Education:LC - Special Aspects of Education",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=L+-+Education%3ALC+-+Special+Aspects+of+Education&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "L - Education:LD - Individual Educational Institutions (U.S.)",
+              "value": "L - Education:LD - Individual Educational Institutions (U.S.)",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=L+-+Education%3ALD+-+Individual+Educational+Institutions+%28U.S.%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "L - Education:LH - College & School Magazines & Papers",
+              "value": "L - Education:LH - College & School Magazines & Papers",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=L+-+Education%3ALH+-+College+%26+School+Magazines+%26+Papers&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "M - Music",
+              "value": "M - Music",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=M+-+Music&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "M - Music:ML - Literature on Music",
+              "value": "M - Music:ML - Literature on Music",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=M+-+Music%3AML+-+Literature+on+Music&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "N - Fine Arts",
+              "value": "N - Fine Arts",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=N+-+Fine+Arts&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "N - Fine Arts:NA - Architecture",
+              "value": "N - Fine Arts:NA - Architecture",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=N+-+Fine+Arts%3ANA+-+Architecture&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "N - Fine Arts:NB - Sculpture",
+              "value": "N - Fine Arts:NB - Sculpture",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=N+-+Fine+Arts%3ANB+-+Sculpture&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature",
+              "value": "P - Language & Literature",
+              "hits": 27
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:P - Language & Literature",
+              "value": "P - Language & Literature:P - Language & Literature",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3AP+-+Language+%26+Literature&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PA - Greek & Latin Language & Literature",
+              "value": "P - Language & Literature:PA - Greek & Latin Language & Literature",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APA+-+Greek+%26+Latin+Language+%26+Literature&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PC - Romanic Languages",
+              "value": "P - Language & Literature:PC - Romanic Languages",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APC+-+Romanic+Languages&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PE - English Languages",
+              "value": "P - Language & Literature:PE - English Languages",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APE+-+English+Languages&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PF - West Germanic Languages",
+              "value": "P - Language & Literature:PF - West Germanic Languages",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APF+-+West+Germanic+Languages&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PG - Slavic, Baltic, Albanian Languages, Russian Language & Literature",
+              "value": "P - Language & Literature:PG - Slavic, Baltic, Albanian Languages, Russian Language & Literature",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APG+-+Slavic%2C+Baltic%2C+Albanian+Languages%2C+Russian+Language+%26+Literature&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PL - Languages & Literatures of Eastern Asia, Africa, Oceania",
+              "value": "P - Language & Literature:PL - Languages & Literatures of Eastern Asia, Africa, Oceania",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APL+-+Languages+%26+Literatures+of+Eastern+Asia%2C+Africa%2C+Oceania&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PN - Literature (General)",
+              "value": "P - Language & Literature:PN - Literature (General)",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APN+-+Literature+%28General%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "P - Language & Literature:PS - American Literature",
+              "value": "P - Language & Literature:PS - American Literature",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=P+-+Language+%26+Literature%3APS+-+American+Literature&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science",
+              "value": "Q - Science",
+              "hits": 7122
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:Q - Science",
+              "value": "Q - Science:Q - Science",
+              "hits": 125
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQ+-+Science&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QA - Mathematics",
+              "value": "Q - Science:QA - Mathematics",
+              "hits": 702
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQA+-+Mathematics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QB - Astronomy",
+              "value": "Q - Science:QB - Astronomy",
+              "hits": 581
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQB+-+Astronomy&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QC - Physics",
+              "value": "Q - Science:QC - Physics",
+              "hits": 5375
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQC+-+Physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QD - Chemistry",
+              "value": "Q - Science:QD - Chemistry",
+              "hits": 202
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQD+-+Chemistry&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QE - Geology",
+              "value": "Q - Science:QE - Geology",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQE+-+Geology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QH - Natural History, Biology",
+              "value": "Q - Science:QH - Natural History, Biology",
+              "hits": 50
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQH+-+Natural+History%2C+Biology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QK - Botany",
+              "value": "Q - Science:QK - Botany",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQK+-+Botany&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QL - Zoology",
+              "value": "Q - Science:QL - Zoology",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQL+-+Zoology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QP - Physiology",
+              "value": "Q - Science:QP - Physiology",
+              "hits": 63
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQP+-+Physiology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Q - Science:QR - Microbiology",
+              "value": "Q - Science:QR - Microbiology",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Q+-+Science%3AQR+-+Microbiology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine",
+              "value": "R - Medicine",
+              "hits": 164
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:R - Medicine",
+              "value": "R - Medicine:R - Medicine",
+              "hits": 51
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3AR+-+Medicine&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RA - Public Aspects of Medicine",
+              "value": "R - Medicine:RA - Public Aspects of Medicine",
+              "hits": 24
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARA+-+Public+Aspects+of+Medicine&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RB - Pathology",
+              "value": "R - Medicine:RB - Pathology",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARB+-+Pathology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RC - Internal Medicine",
+              "value": "R - Medicine:RC - Internal Medicine",
+              "hits": 45
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARC+-+Internal+Medicine&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RD - Surgery",
+              "value": "R - Medicine:RD - Surgery",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARD+-+Surgery&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RE - Ophthalmology",
+              "value": "R - Medicine:RE - Ophthalmology",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARE+-+Ophthalmology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RG - Gynecology & Obstetrics",
+              "value": "R - Medicine:RG - Gynecology & Obstetrics",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARG+-+Gynecology+%26+Obstetrics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RJ - Pediatrics",
+              "value": "R - Medicine:RJ - Pediatrics",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARJ+-+Pediatrics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RK - Dentistry",
+              "value": "R - Medicine:RK - Dentistry",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARK+-+Dentistry&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RL - Dermatology",
+              "value": "R - Medicine:RL - Dermatology",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARL+-+Dermatology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RM - Therapeutics, Pharmacology",
+              "value": "R - Medicine:RM - Therapeutics, Pharmacology",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARM+-+Therapeutics%2C+Pharmacology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "R - Medicine:RS - Pharmacy & Materia Medica",
+              "value": "R - Medicine:RS - Pharmacy & Materia Medica",
+              "hits": 15
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=R+-+Medicine%3ARS+-+Pharmacy+%26+Materia+Medica&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "S - Agriculture",
+              "value": "S - Agriculture",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=S+-+Agriculture&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "S - Agriculture:S - Agriculture",
+              "value": "S - Agriculture:S - Agriculture",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=S+-+Agriculture%3AS+-+Agriculture&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "S - Agriculture:SF - Animal Culture",
+              "value": "S - Agriculture:SF - Animal Culture",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=S+-+Agriculture%3ASF+-+Animal+Culture&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology",
+              "value": "T - Technology",
+              "hits": 1806
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:T - Technology",
+              "value": "T - Technology:T - Technology",
+              "hits": 52
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3AT+-+Technology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TA - Engineering, Civil Engineering",
+              "value": "T - Technology:TA - Engineering, Civil Engineering",
+              "hits": 582
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATA+-+Engineering%2C+Civil+Engineering&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TC - Hydraulic Engineering",
+              "value": "T - Technology:TC - Hydraulic Engineering",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATC+-+Hydraulic+Engineering&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TD - Environmental Technology",
+              "value": "T - Technology:TD - Environmental Technology",
+              "hits": 46
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATD+-+Environmental+Technology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TG - Bridge Engineering",
+              "value": "T - Technology:TG - Bridge Engineering",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATG+-+Bridge+Engineering&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TH - Building Construction",
+              "value": "T - Technology:TH - Building Construction",
+              "hits": 16
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATH+-+Building+Construction&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TJ - Mechanical Engineering & Machinery",
+              "value": "T - Technology:TJ - Mechanical Engineering & Machinery",
+              "hits": 123
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATJ+-+Mechanical+Engineering+%26+Machinery&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TK - Electrical Engineering, Nuclear Engineering",
+              "value": "T - Technology:TK - Electrical Engineering, Nuclear Engineering",
+              "hits": 668
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATK+-+Electrical+Engineering%2C+Nuclear+Engineering&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TL - Motor Vehicles, Aeronautics, Astronautics",
+              "value": "T - Technology:TL - Motor Vehicles, Aeronautics, Astronautics",
+              "hits": 91
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATL+-+Motor+Vehicles%2C+Aeronautics%2C+Astronautics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TN - Mining Engineering",
+              "value": "T - Technology:TN - Mining Engineering",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATN+-+Mining+Engineering&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TP - Chemical Technology",
+              "value": "T - Technology:TP - Chemical Technology",
+              "hits": 93
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATP+-+Chemical+Technology&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TR - Photography",
+              "value": "T - Technology:TR - Photography",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATR+-+Photography&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TS - Manufactures",
+              "value": "T - Technology:TS - Manufactures",
+              "hits": 88
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATS+-+Manufactures&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "T - Technology:TX - Home Economics",
+              "value": "T - Technology:TX - Home Economics",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=T+-+Technology%3ATX+-+Home+Economics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "U - Military Science",
+              "value": "U - Military Science",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=U+-+Military+Science&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "U - Military Science:U - Military Science",
+              "value": "U - Military Science:U - Military Science",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=U+-+Military+Science%3AU+-+Military+Science&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "U - Military Science:UF - Artillery",
+              "value": "U - Military Science:UF - Artillery",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=U+-+Military+Science%3AUF+-+Artillery&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "U - Military Science:UG - Military Engineering, Air Forces, Military Astronautics",
+              "value": "U - Military Science:UG - Military Engineering, Air Forces, Military Astronautics",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=U+-+Military+Science%3AUG+-+Military+Engineering%2C+Air+Forces%2C+Military+Astronautics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Z - Bibliography, Library Science, Information Resources",
+              "value": "Z - Bibliography, Library Science, Information Resources",
+              "hits": 44
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Z+-+Bibliography%2C+Library+Science%2C+Information+Resources&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Z - Bibliography, Library Science, Information Resources:Z - Bibliography, Library Science, Information Resources",
+              "value": "Z - Bibliography, Library Science, Information Resources:Z - Bibliography, Library Science, Information Resources",
+              "hits": 43
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Z+-+Bibliography%2C+Library+Science%2C+Information+Resources%3AZ+-+Bibliography%2C+Library+Science%2C+Information+Resources&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Z - Bibliography, Library Science, Information Resources:ZA - Information Science",
+              "value": "Z - Bibliography, Library Science, Information Resources:ZA - Information Science",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Blc_facet%5D%5B%5D=Z+-+Bibliography%2C+Library+Science%2C+Information+Resources%3AZA+-+Information+Science&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/lc_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "sudoc_facet",
+      "attributes": {
+        "label": "SuDocs",
+        "items": [
+          {
+            "attributes": {
+              "label": "AE - National Archives and Records Administration",
+              "value": "AE - National Archives and Records Administration",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=AE+-+National+Archives+and+Records+Administration&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "C - Commerce Department",
+              "value": "C - Commerce Department",
+              "hits": 9
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=C+-+Commerce+Department&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "D - Defense Department",
+              "value": "D - Defense Department",
+              "hits": 12
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=D+-+Defense+Department&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "E - Energy Department",
+              "value": "E - Energy Department",
+              "hits": 34
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=E+-+Energy+Department&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "GS - General Services Administration",
+              "value": "GS - General Services Administration",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=GS+-+General+Services+Administration&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "HE - Health and Human Services Department",
+              "value": "HE - Health and Human Services Department",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=HE+-+Health+and+Human+Services+Department&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "LC - Library of Congress",
+              "value": "LC - Library of Congress",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=LC+-+Library+of+Congress&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "NAS - National Aeronautics and Space Administration",
+              "value": "NAS - National Aeronautics and Space Administration",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=NAS+-+National+Aeronautics+and+Space+Administration&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "NS - National Science Foundation",
+              "value": "NS - National Science Foundation",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=NS+-+National+Science+Foundation&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "PR - President of the United States",
+              "value": "PR - President of the United States",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=PR+-+President+of+the+United+States&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "X/Y - Congress",
+              "value": "X/Y - Congress",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsudoc_facet%5D%5B%5D=X%2FY+-+Congress&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/sudoc_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "advanced_location_s",
+      "attributes": {
+        "label": "Holding location",
+        "items": [
+          {
+            "attributes": {
+              "label": "Architecture Library",
+              "value": "Architecture Library",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Architecture+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "East Asian Library",
+              "value": "East Asian Library",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=East+Asian+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Engineering Library",
+              "value": "Engineering Library",
+              "hits": 398
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Engineering+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Firestone Library",
+              "value": "Firestone Library",
+              "hits": 95
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Firestone+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Forrestal Annex",
+              "value": "Forrestal Annex",
+              "hits": 47
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Forrestal+Annex&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Harold P. Furth Plasma Physics Library",
+              "value": "Harold P. Furth Plasma Physics Library",
+              "hits": 9605
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Harold+P.+Furth+Plasma+Physics+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Lewis Library",
+              "value": "Lewis Library",
+              "hits": 1812
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Lewis+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Marquand Library",
+              "value": "Marquand Library",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Marquand+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mendel Music Library",
+              "value": "Mendel Music Library",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Mendel+Music+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mudd Manuscript Library",
+              "value": "Mudd Manuscript Library",
+              "hits": 373
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Mudd+Manuscript+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "ReCAP",
+              "value": "ReCAP",
+              "hits": 3406
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=ReCAP&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Special Collections",
+              "value": "Special Collections",
+              "hits": 10
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Special+Collections&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Stokes Library",
+              "value": "Stokes Library",
+              "hits": 22
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Stokes+Library&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Technical Services",
+              "value": "Technical Services",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=Technical+Services&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "annex$fst",
+              "value": "annex$fst",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=annex%24fst&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "annex$noncirc",
+              "value": "annex$noncirc",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=annex%24noncirc&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "annex$princeton",
+              "value": "annex$princeton",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=annex%24princeton&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "annex$reserve",
+              "value": "annex$reserve",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=annex%24reserve&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "annex$stacks",
+              "value": "annex$stacks",
+              "hits": 34
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=annex%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "arch$stacks",
+              "value": "arch$stacks",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=arch%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "eastasian$cjkref",
+              "value": "eastasian$cjkref",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=eastasian%24cjkref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "eastasian$gest",
+              "value": "eastasian$gest",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=eastasian%24gest&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "engineer$media",
+              "value": "engineer$media",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=engineer%24media&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "engineer$pt",
+              "value": "engineer$pt",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=engineer%24pt&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "engineer$ref",
+              "value": "engineer$ref",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=engineer%24ref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "engineer$serial",
+              "value": "engineer$serial",
+              "hits": 7
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=engineer%24serial&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "engineer$stacks",
+              "value": "engineer$stacks",
+              "hits": 384
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=engineer%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "engineer$str",
+              "value": "engineer$str",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=engineer%24str&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$clas",
+              "value": "firestone$clas",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24clas&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$dr",
+              "value": "firestone$dr",
+              "hits": 11
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24dr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$dra",
+              "value": "firestone$dra",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24dra&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$drrr",
+              "value": "firestone$drrr",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24drrr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$fac",
+              "value": "firestone$fac",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24fac&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$fis",
+              "value": "firestone$fis",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24fis&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$noncirc",
+              "value": "firestone$noncirc",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24noncirc&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$pf",
+              "value": "firestone$pf",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24pf&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$pres",
+              "value": "firestone$pres",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24pres&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$seref",
+              "value": "firestone$seref",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24seref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$sne",
+              "value": "firestone$sne",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24sne&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$spc",
+              "value": "firestone$spc",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24spc&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$stacks",
+              "value": "firestone$stacks",
+              "hits": 79
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "firestone$xl",
+              "value": "firestone$xl",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=firestone%24xl&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$efa",
+              "value": "lewis$efa",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24efa&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$laf",
+              "value": "lewis$laf",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24laf&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$map",
+              "value": "lewis$map",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24map&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$mic",
+              "value": "lewis$mic",
+              "hits": 17
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24mic&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$pn",
+              "value": "lewis$pn",
+              "hits": 24
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24pn&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$ref",
+              "value": "lewis$ref",
+              "hits": 31
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24ref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$serial",
+              "value": "lewis$serial",
+              "hits": 27
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24serial&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$stacks",
+              "value": "lewis$stacks",
+              "hits": 1700
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "lewis$theses",
+              "value": "lewis$theses",
+              "hits": 35
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=lewis%24theses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "marquand$ref",
+              "value": "marquand$ref",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=marquand%24ref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "marquand$stacks",
+              "value": "marquand$stacks",
+              "hits": 6
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=marquand%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "mendel$stacks",
+              "value": "mendel$stacks",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=mendel%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "mudd$ph",
+              "value": "mudd$ph",
+              "hits": 342
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=mudd%24ph&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "mudd$prnc",
+              "value": "mudd$prnc",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=mudd%24prnc&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "mudd$scamudd",
+              "value": "mudd$scamudd",
+              "hits": 8
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=mudd%24scamudd&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "mudd$stacks",
+              "value": "mudd$stacks",
+              "hits": 23
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=mudd%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$la",
+              "value": "plasma$la",
+              "hits": 68
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24la&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$li",
+              "value": "plasma$li",
+              "hits": 82
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24li&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$nb",
+              "value": "plasma$nb",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24nb&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$ps",
+              "value": "plasma$ps",
+              "hits": 119
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24ps&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$rdr",
+              "value": "plasma$rdr",
+              "hits": 5290
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24rdr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$ref",
+              "value": "plasma$ref",
+              "hits": 241
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24ref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$rr",
+              "value": "plasma$rr",
+              "hits": 32
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24rr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$stacks",
+              "value": "plasma$stacks",
+              "hits": 3600
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24stacks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "plasma$theses",
+              "value": "plasma$theses",
+              "hits": 287
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=plasma%24theses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$ex",
+              "value": "rare$ex",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24ex&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$exb",
+              "value": "rare$exb",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24exb&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$ga",
+              "value": "rare$ga",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24ga&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$whs",
+              "value": "rare$whs",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24whs&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$xg",
+              "value": "rare$xg",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24xg&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$xmr",
+              "value": "rare$xmr",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24xmr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "rare$xr",
+              "value": "rare$xr",
+              "hits": 2
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=rare%24xr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "recap$gp",
+              "value": "recap$gp",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=recap%24gp&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "recap$pa",
+              "value": "recap$pa",
+              "hits": 1634
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=recap%24pa&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "recap$pq",
+              "value": "recap$pq",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=recap%24pq&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "scsbcul",
+              "value": "scsbcul",
+              "hits": 1097
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=scsbcul&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "scsbhl",
+              "value": "scsbhl",
+              "hits": 93
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=scsbhl&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "scsbnypl",
+              "value": "scsbnypl",
+              "hits": 578
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=scsbnypl&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "stokes$ref",
+              "value": "stokes$ref",
+              "hits": 3
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=stokes%24ref&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "stokes$spia",
+              "value": "stokes$spia",
+              "hits": 13
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=stokes%24spia&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "stokes$spiaps",
+              "value": "stokes$spiaps",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=stokes%24spiaps&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "stokes$spiaws",
+              "value": "stokes$spiaws",
+              "hits": 1
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=stokes%24spiaws&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "stokes$spr",
+              "value": "stokes$spr",
+              "hits": 5
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=stokes%24spr&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "techserv$dc",
+              "value": "techserv$dc",
+              "hits": 4
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Badvanced_location_s%5D%5B%5D=techserv%24dc&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/advanced_location_s.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "facet",
+      "id": "subject_facet",
+      "attributes": {
+        "label": "Subject Facet",
+        "items": [
+          {
+            "attributes": {
+              "label": "Plasma (Ionized gases)",
+              "value": "Plasma (Ionized gases)",
+              "hits": 2211
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Plasma+%28Ionized+gases%29&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Plasma (Ionized gases)\u2014Congresses",
+              "value": "Plasma (Ionized gases)\u2014Congresses",
+              "hits": 577
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Plasma+%28Ionized+gases%29%E2%80%94Congresses&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tokamaks",
+              "value": "Tokamaks",
+              "hits": 473
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Tokamaks&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Physics",
+              "value": "Physics",
+              "hits": 458
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Astrophysics",
+              "value": "Astrophysics",
+              "hits": 433
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Astrophysics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Controlled fusion",
+              "value": "Controlled fusion",
+              "hits": 416
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Controlled+fusion&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Mathematical physics",
+              "value": "Mathematical physics",
+              "hits": 375
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Mathematical+physics&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Tokamak Fusion Test Reactor (Project).",
+              "value": "Tokamak Fusion Test Reactor (Project).",
+              "hits": 348
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Tokamak+Fusion+Test+Reactor+%28Project%29.&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Space plasmas",
+              "value": "Space plasmas",
+              "hits": 347
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Space+plasmas&per_page=2&q=plasma+physics"
+            }
+          },
+          {
+            "attributes": {
+              "label": "Plasma confinement",
+              "value": "Plasma confinement",
+              "hits": 336
+            },
+            "links": {
+              "self": "https://catalog.princeton.edu/catalog.json?f%5Bsubject_facet%5D%5B%5D=Plasma+confinement&per_page=2&q=plasma+physics"
+            }
+          }
+        ]
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog/facet/subject_facet.json?per_page=2&q=plasma+physics"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "all_fields",
+      "attributes": {
+        "label": "Keyword"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=all_fields"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "title",
+      "attributes": {
+        "label": "Title"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=title"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "author",
+      "attributes": {
+        "label": "Author/Creator"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=author"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "subject",
+      "attributes": {
+        "label": "Subject"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=subject"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "left_anchor",
+      "attributes": {
+        "label": "Title starts with"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=left_anchor"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "browse_subject",
+      "attributes": {
+        "label": "Subject (browse)"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=browse_subject"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "browse_name",
+      "attributes": {
+        "label": "Author (browse)"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=browse_name"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "name_title",
+      "attributes": {
+        "label": "Author (sorted by title)"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=name_title"
+      }
+    },
+    {
+      "type": "search_field",
+      "id": "browse_cn",
+      "attributes": {
+        "label": "Call number (browse)"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&search_field=browse_cn"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "score desc, pub_date_start_sort desc, title_sort asc",
+      "attributes": {
+        "label": "relevance"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&sort=score+desc%2C+pub_date_start_sort+desc%2C+title_sort+asc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "pub_date_start_sort desc, title_sort asc, score desc",
+      "attributes": {
+        "label": "year (newest first)"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&sort=pub_date_start_sort+desc%2C+title_sort+asc%2C+score+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "pub_date_start_sort asc, title_sort asc, score desc",
+      "attributes": {
+        "label": "year (oldest first)"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&sort=pub_date_start_sort+asc%2C+title_sort+asc%2C+score+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "author_sort asc, title_sort asc, score desc",
+      "attributes": {
+        "label": "author"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&sort=author_sort+asc%2C+title_sort+asc%2C+score+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "title_sort asc, pub_date_start_sort desc, score desc",
+      "attributes": {
+        "label": "title"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&sort=title_sort+asc%2C+pub_date_start_sort+desc%2C+score+desc"
+      }
+    },
+    {
+      "type": "sort",
+      "id": "cataloged_tdt desc, title_sort asc, score desc",
+      "attributes": {
+        "label": "date cataloged"
+      },
+      "links": {
+        "self": "https://catalog.princeton.edu/catalog.json?per_page=2&q=plasma+physics&sort=cataloged_tdt+desc%2C+title_sort+asc%2C+score+desc"
+      }
+    }
+  ]
+}

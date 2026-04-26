@@ -1,0 +1,71 @@
+{
+  "response": {
+    "facets": {
+      "items": [
+        {
+          "value": "Archival item",
+          "hits": 6613
+        },
+        {
+          "value": "Audio",
+          "hits": 414637
+        },
+        {
+          "value": "Book",
+          "hits": 21367299
+        },
+        {
+          "value": "Coin",
+          "hits": 25513
+        },
+        {
+          "value": "Data file",
+          "hits": 11806
+        },
+        {
+          "value": "Databases",
+          "hits": 26103
+        },
+        {
+          "value": "Journal",
+          "hits": 984059
+        },
+        {
+          "value": "Manuscript",
+          "hits": 135213
+        },
+        {
+          "value": "Map",
+          "hits": 99336
+        },
+        {
+          "value": "Microform",
+          "hits": 282620
+        },
+        {
+          "value": "Musical score",
+          "hits": 253317
+        },
+        {
+          "value": "Report",
+          "hits": 82
+        },
+        {
+          "value": "Senior thesis",
+          "hits": 82911
+        },
+        {
+          "value": "Video/Projected medium",
+          "hits": 190314
+        },
+        {
+          "value": "Visual material",
+          "hits": 75988
+        }
+      ],
+      "limit": 20,
+      "offset": 0,
+      "sort": "index"
+    }
+  }
+}

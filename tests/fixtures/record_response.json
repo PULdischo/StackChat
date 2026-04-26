@@ -1,0 +1,212 @@
+{
+  "links": {
+    "self": "https://catalog.princeton.edu/catalog/9987870933506421"
+  },
+  "data": {
+    "id": "9987870933506421",
+    "type": null,
+    "attributes": {
+      "author_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#author_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "R.E. Lewis, Inc"
+          ],
+          "label": "Author/\u200bArtist"
+        }
+      },
+      "format": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#format",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "Journal"
+          ],
+          "label": "Format"
+        }
+      },
+      "language_name_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#language_name_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "English"
+          ],
+          "label": "Language"
+        }
+      },
+      "pub_created_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#pub_created_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "San Rafael, CA : R.E. Lewis, Inc."
+          ],
+          "label": "Published/\u200bCreated"
+        }
+      },
+      "description_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#description_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "v. : ill. ; 16 x 24 cm."
+          ],
+          "label": "Description"
+        }
+      },
+      "lc_subject_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#lc_subject_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "Prints\u2014Catalogs",
+            "Art\u2014Catalogs",
+            "R.E. Lewis, Inc\u2014Catalogs"
+          ],
+          "label": "Subject(s)"
+        }
+      },
+      "lcgft_s": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#lcgft_s",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "Catalogs"
+          ],
+          "label": "Library of Congress genre(s)"
+        }
+      },
+      "continued_by_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#continued_by_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "R.E. Lewis & Daughter. Catalogue"
+          ],
+          "label": "Continued by"
+        }
+      },
+      "frequency_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#frequency_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "Irregular"
+          ],
+          "label": "Frequency"
+        }
+      },
+      "notes_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#notes_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "Each issue also has unique title.",
+            "Issues for Feb. 6/25, 1967 and Aug. 19/Sept. 20, 1969 missing main title."
+          ],
+          "label": "Notes"
+        }
+      },
+      "holdings_1display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#holdings_1display",
+        "type": "document_value",
+        "attributes": {
+          "value": {
+            "22591683530006421": {
+              "location_code": "marquand$pj",
+              "location": "Remote Storage (ReCAP): Marquand Library Use Only",
+              "library": "Marquand Library",
+              "call_number": "N8640 .R45",
+              "call_number_browse": "N8640 .R45",
+              "items": [
+                {
+                  "holding_id": "22591683530006421",
+                  "description": "Feb. 1967-Sept. 1973",
+                  "id": "23591683520006421",
+                  "status_at_load": "1",
+                  "barcode": "32101092830692",
+                  "copy_number": "1"
+                },
+                {
+                  "holding_id": "22591683530006421",
+                  "description": "Oct. 1980-Oct. 1985",
+                  "id": "23591683500006421",
+                  "status_at_load": "1",
+                  "barcode": "32101092830684",
+                  "copy_number": "1"
+                },
+                {
+                  "holding_id": "22591683530006421",
+                  "description": "Sept. 1974-June 1979",
+                  "id": "23591683510006421",
+                  "status_at_load": "1",
+                  "barcode": "32101092830619",
+                  "copy_number": "1"
+                },
+                {
+                  "holding_id": "22591683530006421",
+                  "description": "Feb. 1990-Oct. 1994",
+                  "id": "23591683480006421",
+                  "status_at_load": "1",
+                  "barcode": "32101092830668",
+                  "copy_number": "1"
+                },
+                {
+                  "holding_id": "22591683530006421",
+                  "description": "Feb. 1986-Sept. 1989",
+                  "id": "23591683490006421",
+                  "status_at_load": "1",
+                  "barcode": "32101092830676",
+                  "copy_number": "1"
+                }
+              ],
+              "location_has": [
+                "Feb. 6/25, 1967-Oct. 1994"
+              ],
+              "supplements": [
+                null
+              ],
+              "indexes": [
+                null
+              ]
+            }
+          },
+          "label": "Location has"
+        }
+      },
+      "source_desc_notes_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#source_desc_notes_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "Description based on: Feb. 6/25, 1967; title from cover.",
+            "Latest issue consulted: July 1997."
+          ],
+          "label": "Source of description"
+        }
+      },
+      "lccn_display": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#lccn_display",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "  2011238237"
+          ],
+          "label": "LCCN"
+        }
+      },
+      "oclc_s": {
+        "id": "https://catalog.princeton.edu/catalog/9987870933506421#oclc_s",
+        "type": "document_value",
+        "attributes": {
+          "value": [
+            "17433361"
+          ],
+          "label": "OCLC"
+        }
+      }
+    }
+  }
+}

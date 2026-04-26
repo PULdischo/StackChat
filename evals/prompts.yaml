@@ -1,0 +1,152 @@
+# StackChat eval prompts
+# ~20 representative user requests covering expected failure modes.
+#
+# Each entry has:
+#   id:               unique slug
+#   prompt:           what the user says to the MCP host
+#   expect.tool:      exact tool name expected (if unambiguous)
+#   expect.tool_in:   set of acceptable tool names (if ambiguous)
+#   expect.params_contain_any: one of these strings must appear in the serialised params
+#   expect.refinement_contains: dict of refinement params that must be present
+#   notes:            design commentary
+
+- id: known_title_full
+  prompt: "Does Princeton have 'The Brothers Karamazov' by Dostoevsky?"
+  expect:
+    tool_in: [search_keyword, search_title, search_author]
+    params_contain_any: ["brothers karamazov", "dostoevsky"]
+    notes: >
+      Open case — no single right tool for title+author in v1.
+      Record which tool the model picks; if it thrashes, add find_book().
+
+- id: known_title_prefix
+  prompt: "I'm looking for a book whose title starts with 'Algorithms to Live By'."
+  expect:
+    tool: search_title_starts_with
+    params_contain_any: ["algorithms to live"]
+
+- id: topical_with_format_narrowing
+  prompt: "What musical scores does Princeton have for Beethoven symphonies?"
+  expect:
+    tool_in: [search_keyword, search_author, search_subject]
+    params_contain_any: ["beethoven"]
+    refinement_contains:
+      format: "Musical score"
+
+- id: shelf_neighbors
+  prompt: "What's shelved near call number PN842 .S539 2006?"
+  expect:
+    tool: browse_call_number
+    params_contain_any: ["PN842"]
+
+- id: boolean_query
+  prompt: "Books about activism but not about Indiana."
+  expect:
+    tool: search_keyword
+    query_uses_uppercase_boolean: true
+
+- id: author_browse
+  prompt: "Show me all the name authority entries starting with 'Nabokov'."
+  expect:
+    tool: browse_names
+    params_contain_any: ["nabokov"]
+
+- id: subject_browse
+  prompt: "What subject headings exist for Ottoman history?"
+  expect:
+    tool_in: [browse_subjects, search_subject]
+    params_contain_any: ["ottoman"]
+
+- id: isbn_lookup
+  prompt: "Do you have the book with ISBN 978-0-262-03561-3?"
+  expect:
+    tool: search_isbn
+    params_contain_any: ["9780262035613"]
+    notes: ISBN must be normalized (hyphens stripped).
+
+- id: issn_lookup
+  prompt: "Find the journal with ISSN 0028-0836."
+  expect:
+    tool: search_issn
+    params_contain_any: ["0028-0836"]
+
+- id: online_only
+  prompt: "I need online-access-only journals about machine learning published after 2010."
+  expect:
+    tool_in: [search_keyword, search_subject, search_title]
+    params_contain_any: ["machine learning"]
+    refinement_contains:
+      online_only: true
+      year_range_begin: 2010
+
+- id: year_range
+  prompt: "Find books about the French Revolution published between 1990 and 2005."
+  expect:
+    tool_in: [search_keyword, search_subject]
+    params_contain_any: ["french revolution"]
+    refinement_contains:
+      year_range_begin: 1990
+      year_range_end: 2005
+
+- id: language_filter
+  prompt: "Are there any books in Arabic on modern poetry at Princeton?"
+  expect:
+    tool_in: [search_keyword, search_subject]
+    params_contain_any: ["modern poetry", "poetry"]
+    refinement_contains:
+      language: "Arabic"
+
+- id: location_filter
+  prompt: "What music scores are held at the Mendel Music Library?"
+  expect:
+    tool_in: [search_keyword, search_subject]
+    refinement_contains:
+      location: "Mendel Music Library"
+      format: "Musical score"
+
+- id: get_record
+  prompt: "Get the full catalog record for MMS ID 9987870933506421."
+  expect:
+    tool: get_record
+    params_contain_any: ["9987870933506421"]
+
+- id: list_formats
+  prompt: "What types of materials does Princeton's catalog contain?"
+  expect:
+    tool: list_facets
+    params_contain_any: ["format"]
+
+- id: series_search
+  prompt: "Find items in the 'Oxford Classical Monographs' series."
+  expect:
+    tool: search_series
+    params_contain_any: ["oxford classical monographs"]
+
+- id: publisher_search
+  prompt: "What has Princeton University Press published on linguistics?"
+  expect:
+    tool_in: [search_publisher, search_keyword]
+    params_contain_any: ["princeton university press", "linguistics"]
+
+- id: senior_thesis
+  prompt: "Find Princeton senior theses about climate change."
+  expect:
+    tool_in: [search_keyword, search_subject]
+    params_contain_any: ["climate change"]
+    refinement_contains:
+      format: "Senior thesis"
+
+- id: multi_format
+  prompt: "Show me both books and journals about quantum computing."
+  expect:
+    tool_in: [search_keyword, search_subject]
+    params_contain_any: ["quantum computing"]
+    notes: model should pass multiple values for format
+
+- id: pagination
+  prompt: "Show me the second page of results for books about urbanization."
+  expect:
+    tool_in: [search_keyword, search_subject]
+    params_contain_any: ["urbanization"]
+    refinement_contains:
+      page: 2
