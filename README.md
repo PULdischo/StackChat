@@ -78,18 +78,14 @@ STACKCHAT_CACHE_TTL=600
 
 ### 1. Build and push the container image
 
+Use Cloud Build — it builds remotely and pushes to the registry in one step:
+
 ```bash
 export PROJECT_ID=your-gcp-project-id
 export REGION=us-east1
 export IMAGE=gcr.io/$PROJECT_ID/stackchat
 
-docker build -t $IMAGE .
-docker push $IMAGE
-```
-
-Or use Cloud Build to build remotely:
-
-```bash
+gcloud config set project $PROJECT_ID
 gcloud builds submit --tag $IMAGE
 ```
 
@@ -125,7 +121,11 @@ Then add the DNS records shown in the output (a CNAME or A record pointing to `g
 
 ### 4. Configure your MCP client
 
-Use the HTTPS URL directly — no local proxy or extra tooling required:
+Use the HTTPS URL directly — no local proxy or extra tooling required.
+
+> **Important:** The MCP endpoint is at the `/mcp` path. Always append `/mcp` to the service URL.
+
+With a custom domain:
 
 ```json
 {
@@ -137,7 +137,7 @@ Use the HTTPS URL directly — no local proxy or extra tooling required:
 }
 ```
 
-If you are using the auto-generated Cloud Run URL instead of a custom domain:
+With the auto-generated Cloud Run URL:
 
 ```json
 {

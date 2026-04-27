@@ -17,6 +17,7 @@ from fastmcp import FastMCP
 from fastmcp.exceptions import ToolError
 
 from stackchat import client as http_client
+from stackchat.settings import get_port, settings
 from stackchat.fields import (
     ACCESS_ONLINE,
     BROWSE_INDEXES,
@@ -720,8 +721,19 @@ async def browse_call_number(
 
 
 def main() -> None:
-    """Run the MCP server (stdio transport by default)."""
-    mcp.run()
+    """Run the MCP server.
+
+    Transport is controlled by the STACKCHAT_TRANSPORT environment variable:
+    - "stdio"            — default; for local Claude Desktop / Cursor use.
+    - "streamable-http"  — for Cloud Run and other remote deployments.
+                           Binds to 0.0.0.0:PORT (Cloud Run injects PORT).
+    """
+    if settings.transport == "streamable-http":
+        port = get_port()
+        logger.info("Starting StackChat on streamable-http transport, port %d", port)
+        mcp.run(transport="streamable-http", host="0.0.0.0", port=port)
+    else:
+        mcp.run(transport="stdio")
 
 
 if __name__ == "__main__":

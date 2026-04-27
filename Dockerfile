@@ -17,18 +17,24 @@ WORKDIR /app
 # this layer and skip re-installing on code-only changes.
 COPY pyproject.toml uv.lock ./
 
-# Install production deps only; --frozen ensures the lockfile is respected.
+# Install production deps only (no project package yet).
 RUN uv sync --no-dev --frozen --no-install-project
 
 # ── Copy application source ───────────────────────────────────────────────────
+COPY README.md ./
 COPY src/ ./src/
 
-# Install the project itself (already has deps from above).
-RUN uv sync --no-dev --frozen
+# Install the project package itself without re-resolving deps.
+# --no-deps: deps are already installed above; avoids needing hatchling at runtime.
+RUN uv pip install --no-deps .
 
 # ── Runtime configuration ─────────────────────────────────────────────────────
 # Cloud Run injects PORT; STACKCHAT_TRANSPORT switches from stdio to HTTP.
 ENV STACKCHAT_TRANSPORT=streamable-http
+# FastMCP reads FASTMCP_HOST / FASTMCP_PORT to bind its uvicorn server.
+# Cloud Run requires 0.0.0.0; PORT is injected at runtime (default 8080).
+ENV FASTMCP_HOST=0.0.0.0
+ENV FASTMCP_PORT=8080
 
 # Cloud Run routes external HTTPS to whatever port the container listens on.
 # We default to 8080 here; Cloud Run will override PORT at runtime.
