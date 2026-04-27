@@ -51,6 +51,53 @@ uv run python -m stackchat.server
 }
 ```
 
+### AnythingLLM
+
+[AnythingLLM](https://anythingllm.com) (Desktop or self-hosted Docker, v1.12+) reads a file called `anythingllm_mcp_servers.json` that uses the same `mcpServers` schema as Claude Desktop. After editing the file, reload the servers from **Admin → Agents → MCP Servers** in the AnythingLLM UI.
+
+**Config file location**
+
+| Deployment | Path |
+|---|---|
+| Desktop — macOS | `~/Library/Application Support/anythingllm-desktop/storage/plugins/anythingllm_mcp_servers.json` |
+| Desktop — Linux | `~/.config/anythingllm-desktop/storage/plugins/anythingllm_mcp_servers.json` |
+| Desktop — Windows | `%APPDATA%\anythingllm-desktop\storage\plugins\anythingllm_mcp_servers.json` |
+| Docker self-hosted | `<STORAGE_DIR>/plugins/anythingllm_mcp_servers.json` |
+
+#### Option A — `stdio` (local install, Desktop)
+
+```json
+{
+  "mcpServers": {
+    "stackchat": {
+      "command": "uv",
+      "args": ["--directory", "/absolute/path/to/StackChat", "run", "stackchat"]
+    }
+  }
+}
+```
+
+> **PATH tip:** AnythingLLM Desktop (Electron) may start with a stripped `PATH`. If `uv` is not found, use its absolute path (e.g. `/Users/you/.local/bin/uv`) or replace `"command": "uv"` with `"command": "uvx"` and `"args": ["stackchat"]` once the package is published to PyPI.
+
+#### Option B — `streamable-http` (remote / Cloud Run)
+
+If StackChat is already deployed with `STACKCHAT_TRANSPORT=streamable-http`, point AnythingLLM at it directly — no subprocess needed:
+
+```json
+{
+  "mcpServers": {
+    "stackchat": {
+      "type": "streamable",
+      "url": "https://your-stackchat-host.example.com/mcp"
+    }
+  }
+}
+```
+
+> **Important:** Always append `/mcp` to the service URL — FastMCP mounts its streamable-HTTP endpoint at that path.
+
+> **Docker-to-Docker note:** If AnythingLLM and StackChat both run as Docker containers, use the `streamable` transport and reference StackChat's container hostname (e.g. `http://stackchat:8080/mcp`). The `stdio` option will not work across containers.
+
 ## Configuration
 
 All settings have production-safe defaults. Override with environment variables or a `.env` file at the project root.
